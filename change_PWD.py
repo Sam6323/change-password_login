@@ -1,8 +1,8 @@
 password = 'a123456'
 password_time = 3
-while password_time <= 3:
+while password_time > 0:
 	key_password = input('請輸入密碼: ')
-	if key_password == 'a123456':
+	if key_password == password:
 		print('登入成功')
 		break
 	else:
